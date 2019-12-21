@@ -1,0 +1,35 @@
+{
+    "name": "xandrkat/yii2-simply",
+    "description": "Simplification of HTML helper Yii Framework 2.0.",
+    "keywords": ["yii", "yii2", "extension", "helper", "utilities", "simply"],
+    "homepage": "https://github.com/xandrkat/yii2-simply",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexandr Katrazhenko",
+            "email": "katrazhenko@gmail.com",
+            "homepage": "http://katrazhenko.pp.ua/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+		"yiisoft/yii2": "~2.0.0",
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "xandrkat\\simply\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    }
+}
