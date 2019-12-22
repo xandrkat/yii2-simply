@@ -11,30 +11,38 @@ This class extends the [Yii Html Helper](https://github.com/yiisoft/yii2/blob/ma
 - Html::{anyTag}('content', [\'whithot class as key\'])
 
 ###As
+
 ```php
 <?=\xandrkat\simply\Html::beginDiv(['container']).'any text'.\xandrkat\simply\Html::endDiv()?>
 // result <div class="container">any text</div>
+```
 
-// or
+```php
 <?=\xandrkat\simply\Html::beginDiv(['class' => 'container']).'any text'.\xandrkat\simply\Html::endDiv()?>
 // result <div class="container">any text</div> 
+```
 
-// or
+```php
 <?=\xandrkat\simply\Html::beginDiv(['container', 'class' => 'bg-primary']).'any text'.\xandrkat\simply\Html::endDiv()?>
 // result <div class="container bg-primary">any text</div> 
+```
 
+```php
 // or simple tag
 <?=\xandrkat\simply\Html::p('any content', ['text-center'])?>
 // result <p class="text-center">any content</p>
+```
 
-// or
+```php
 <?=\xandrkat\simply\Html::p('any content', ['class' => 'text-center'])?>
 // result <p class="text-center">any content</p>
+```
 
-// or
+```php
 <?=\xandrkat\simply\Html::p('any content', ['text-success', 'class' => 'text-center'])?>
 // result <p class="text-success text-center">any content</p>
 ```
+
 ###Or
 
 ```php
@@ -42,27 +50,34 @@ use xandrkat\simply;
 
 <?=Html::beginDiv(['container']).'any text'.Html::endDiv()?>
 // result <div class="container">any text</div>
+```
 
-// or
+```php
 <?=Html::beginDiv(['class' => 'container']).'any text'.Html::endDiv()?>
 // result <div class="container">any text</div> 
+```
 
-// or
+```php
 <?=Html::beginDiv(['container', 'class' => 'bg-primary']).'any text'.Html::endDiv()?>
 // result <div class="container bg-primary">any text</div> 
+```
 
+```php
 // or simple tag
 <?=Html::p('any content', ['text-center'])?>
 // result <p class="text-center">any content</p>
+```
 
-// or
+```php
 <?=Html::p('any content', ['class' => 'text-center'])?>
 // result <p class="text-center">any content</p>
+```
 
-// or
+```php
 <?=Html::p('any content', ['text-success', 'class' => 'text-center'])?>
 // result <p class="text-success text-center">any content</p>
 ```
+
 ### Attention
 Html::a(), Html::img() etc. inherits yii\helpers\Html
 
