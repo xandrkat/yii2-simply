@@ -9,6 +9,7 @@ This class extends the [Yii Html Helper](https://github.com/yiisoft/yii2/blob/ma
 - Html::bebin{anyTag}([\'whithot class as key\']),
 - Html::end{anyTag}()
 - Html::{anyTag}('content', [\'whithot class as key\'])
+
 ###As
 ```php
 <?=\xandrkat\simply\Html::beginDiv(['container']).'any text'.\xandrkat\simply\Html::endDiv()?>
