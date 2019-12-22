@@ -10,7 +10,7 @@ This class extends the [Yii Html Helper](https://github.com/yiisoft/yii2/blob/ma
 - Html::end{anyTag}()
 - Html::{anyTag}('content', [\'whithot class as key\'])
 
-###As
+### As
 
 ```php
 <?=\xandrkat\simply\Html::beginDiv(['container']).'any text'.\xandrkat\simply\Html::endDiv()?>
@@ -43,7 +43,7 @@ This class extends the [Yii Html Helper](https://github.com/yiisoft/yii2/blob/ma
 // result <p class="text-success text-center">any content</p>
 ```
 
-###Or
+### Or
 
 ```php
 use xandrkat\simply;
